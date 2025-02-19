@@ -44,6 +44,15 @@ const routes: Array<RouteRecordRaw> = [
           title: "列表",
           noCache: true
         }
+      },
+      {
+        path: "form",
+        name: "FormView",
+        component: () => import("@/views/form/index.vue"),
+        meta: {
+          title: "表单",
+          noCache: true
+        }
       }
     ]
   }
